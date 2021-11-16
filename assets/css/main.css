@@ -112,6 +112,7 @@ a#aboutNavbar {
     margin-top: 16px;
     margin-right: 28px;
     color: black;
+    cursor: pointer;
 }
 
 .text_imgback {
@@ -157,7 +158,7 @@ a#aboutNavbar {
 }
 
 .bg-magenta {
-    background-color: #EC5242;
+    background-color: #EC5242 !important;
 }
 
 .bg-light {
