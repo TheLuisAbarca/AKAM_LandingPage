@@ -80,7 +80,7 @@ a#aboutNavbar {
 
 .mobMenu {
     height: 100vh;
-    display: fixed;
+    display: none;
     flex-direction: column;
 }
 
