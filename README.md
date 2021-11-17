@@ -23,7 +23,7 @@ feel free to contact me if you have any questions or suggestions.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://theluisabarca.github.io/AKAM_LandingPage/)
 
 ## Getting Started
 
