@@ -1,5 +1,6 @@
 body {
  background: white;
+ overflow-x: hidden !important;
 }
 
 body > header > nav.shown-mobile {
@@ -247,7 +248,66 @@ a#aboutNavbar {
 
 div.col.text-center.text-light > a{}
 
+.paragraph {
+    height: 236px;
+}
 
+.paragraph1 {
+    font-size: 20px;
+}
+
+.psubtitle1 {
+    font-size: 40px;
+}
+
+.psubtitle2 {
+    font-size: 25px;
+}
+
+.separation1 {
+    padding-top:100px
+}
+
+.h5style1 {
+    font-size: 25px;
+}
+
+.h5style2 {
+    font-size: 35px; 
+    padding-top: 35px;
+}
+
+.h5style3 {
+    font-size: 20px; 
+    padding-top: 35px; 
+    padding-bottom: 15px;
+}
+
+.h5style4 {
+    font-size: 15px;
+}
+
+.divstyle {
+    font-size: 20px; 
+    text-decoration: underline;
+}
+
+.mainstyle {
+    padding: .8rem !important;
+}
+
+.h1style {
+    font-size: 56px;
+}
+
+.paragraph2 {
+    font-size: 18px;
+}
+
+.imgstyle{
+    width: 100%;
+    height: auto;
+}
 
 @media (max-width: 768px) {
     .hidden-mobile {

@@ -5,32 +5,32 @@ const content01 = {
     speaker_image: 'assets/img/profile.png',
 };
 const content02 = {
-    name: 'Joselyn Mero',
-    position: 'CEO',
+    name: 'Ingrid Mero',
+    position: 'CFO',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     speaker_image: 'assets/img/profile.png',
 };
 const content03 = {
-    name: 'Joselyn Mero',
-    position: 'CEO',
+    name: 'Ninoska Mero',
+    position: 'COO',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     speaker_image: 'assets/img/profile.png',
 };
 const content04 = {
-    name: 'Joselyn Mero',
-    position: 'CEO',
+    name: 'Luis Abarca',
+    position: 'CTO',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     speaker_image: 'assets/img/profile.png',
 };
 const content05 = {
-    name: 'Joselyn Mero',
-    position: 'CEO',
+    name: 'Arthas Menethil',
+    position: 'CMO',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     speaker_image: 'assets/img/profile.png',
 };
 const content06 = {
-    name: 'Joselyn Mero',
-    position: 'CEO',
+    name: 'Jaina Proudmoore',
+    position: 'President',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     speaker_image: 'assets/img/profile.png',
 };
