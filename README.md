@@ -25,6 +25,9 @@ feel free to contact me if you have any questions or suggestions.
 
 [Live Demo Link](https://theluisabarca.github.io/AKAM_LandingPage/)
 
+## Video Demo
+Video Demo Link: [Video Demo Link](https://www.loom.com/share/d3e45ef6b6844717994cfa556e9a263e?sharedAppSource=personal_library
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps:
