@@ -62,7 +62,13 @@ ul.anim-akam > li > a:hover {
   border: 2px solid #ec5242;
 }
 
-div.col-md-12.first-nav > div.row > ul.col-md-4 > li > a {
+.contactMeRectangle {
+  color: #ec5242 !important;
+  padding: 12px;
+  border: 4px solid #ec5242;
+}
+
+div.col-md-12.first-nav > div.row > ul.col-md-3 > li > a {
   color: white;
 }
 
@@ -261,9 +267,9 @@ a#aboutNavbar {
 
 
 @media (min-width: 410px) and (max-width: 768px){
-    .members3 {
-        font-size: 14px;
-    }
+  .members3 {
+      font-size: 14px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -275,6 +281,7 @@ a#aboutNavbar {
     position: static;
     padding-left: 24px;
     padding-right: 24px;
+    box-shadow: none;
   }
 }
 
