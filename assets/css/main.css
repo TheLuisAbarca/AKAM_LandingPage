@@ -264,11 +264,9 @@ a#aboutNavbar {
   font-size: 8px;
 }
 
-
-
-@media (min-width: 410px) and (max-width: 768px){
+@media (min-width: 410px) and (max-width: 768px) {
   .members3 {
-      font-size: 14px;
+    font-size: 14px;
   }
 }
 
@@ -310,13 +308,13 @@ a#aboutNavbar {
     font-size: 35px;
     padding-top: 35px;
   }
-  
+
   .h5style3 {
     font-size: 20px;
     padding-top: 35px;
     padding-bottom: 15px;
   }
-  
+
   .h5style4 {
     font-size: 15px;
   }
@@ -324,11 +322,11 @@ a#aboutNavbar {
   .members1 {
     font-size: 20px;
   }
-  
+
   .members2 {
     font-size: 15px;
   }
-  
+
   .members3 {
     font-size: 12px;
   }
