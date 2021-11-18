@@ -43,13 +43,13 @@ function htmlSpeakersTemplate(index) {
       <img src="${index.speaker_image}" alt="profile" class="img-fluid">
     </div>
     <div class="col-8">
-      <p class="text-justify text-lato text-dark mb-0" style="font-size: 20px;">
+      <p class="text-justify text-lato text-dark mb-0 members1">
       ${index.name}
       </p>
-      <p class="text-justify text-lato text-magenta" style="font-size: 15px;">
+      <p class="text-justify text-lato text-magenta mb-1 members2">
       ${index.position}
       </p>
-      <p class="mt-4 text-justify text-lato text-dark" style="font-size: 10px;">
+      <p class="mt-sm-4 mt-md-4 text-justify text-lato text-dark members3">
       ${index.description}
       </p>
     </div>

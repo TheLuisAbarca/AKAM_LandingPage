@@ -80,6 +80,10 @@ a#aboutNavbar {
   color: #ec5242 !important;
 }
 
+.color-magenta {
+  color: #ec5242 !important;
+}
+
 .first-nav {
   background-color: #3e3e3e;
 }
@@ -122,7 +126,7 @@ a#aboutNavbar {
   -moz-animation: gradient 10s ease-in-out infinite;
   animation: Gradient 10s ease-in-out infinite;
   margin: 0;
-  font-size: 65px;
+  font-size: 40px;
 }
 
 .text_header {
@@ -145,8 +149,8 @@ a#aboutNavbar {
   font-family: 'Cocogoose', sans-serif;
 }
 
-.text-dark {
-  color: #272a31;
+.text-darkp {
+  color: #272a31 !important;
   font-family: 'Lato', sans-serif;
 }
 
@@ -182,15 +186,18 @@ a#aboutNavbar {
 }
 
 .paragraph1 {
-  font-size: 20px;
+  font-size: 12px;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .psubtitle1 {
-  font-size: 40px;
+  font-size: 20px;
+  margin-bottom: 0 !important;
 }
 
 .psubtitle2 {
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .separation1 {
@@ -202,18 +209,19 @@ a#aboutNavbar {
 }
 
 .h5style2 {
-  font-size: 35px;
-  padding-top: 35px;
+  font-size: 16px;
+  padding-top: 16px;
 }
 
 .h5style3 {
-  font-size: 20px;
+  font-size: 14px;
+  font-weight: bold;
   padding-top: 35px;
   padding-bottom: 15px;
 }
 
 .h5style4 {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .divstyle {
@@ -238,6 +246,26 @@ a#aboutNavbar {
   height: auto;
 }
 
+.members1 {
+  font-size: 13px;
+}
+
+.members2 {
+  font-size: 11px;
+}
+
+.members3 {
+  font-size: 8px;
+}
+
+
+
+@media (min-width: 410px) and (max-width: 768px){
+    .members3 {
+        font-size: 14px;
+    }
+}
+
 @media (max-width: 768px) {
   .hidden-mobile {
     display: none;
@@ -253,5 +281,48 @@ a#aboutNavbar {
 @media (min-width: 768px) and (max-width: 1100px), (min-width: 1100px) and (max-width: 2024px) {
   .shown-mobile {
     display: none;
+  }
+
+  .paragraph1 {
+    font-size: 20px;
+  }
+
+  .text_imgback {
+    font-size: 65px;
+  }
+
+  .psubtitle1 {
+    font-size: 40px;
+  }
+
+  .psubtitle2 {
+    font-size: 25px;
+  }
+
+  .h5style2 {
+    font-size: 35px;
+    padding-top: 35px;
+  }
+  
+  .h5style3 {
+    font-size: 20px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+  }
+  
+  .h5style4 {
+    font-size: 15px;
+  }
+
+  .members1 {
+    font-size: 20px;
+  }
+  
+  .members2 {
+    font-size: 15px;
+  }
+  
+  .members3 {
+    font-size: 12px;
   }
 }
