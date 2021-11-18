@@ -35,7 +35,7 @@ const content06 = {
   speaker_image: 'assets/img/profile.png',
 };
 const allcontent = [content01, content02, content03, content04, content05, content06];
-const basicNumber_speakers = 2;
+const basicNumberSpeakers = 2;
 const windowSize = window.matchMedia('(max-width: 768px)');
 const containerSpeakers = document.getElementById('speakers-container');
 const moreBtn = document.querySelector('#tooglebutton');
@@ -61,7 +61,7 @@ function htmlSpeakersTemplate(index) {
     </div>`;
 }
 
-function generateSpeakers(functionToCall,index) {
+function generateSpeakers(functionToCall, index) {
   const dinContent = document.createDocumentFragment();
   const newDiv = document.createElement('div');
   newDiv.className = 'col-12 col-md-6 p-3';
@@ -72,15 +72,15 @@ function generateSpeakers(functionToCall,index) {
 
 function BasicMobileSpeakers() {
   containerSpeakers.innerHTML = '';
-  for (let i = 0; i < basicNumber_speakers; i ++) {
-    generateSpeakers(htmlSpeakersTemplate,allcontent[i]);
+  for (let i = 0; i < basicNumberSpeakers; i += 1) {
+    generateSpeakers(htmlSpeakersTemplate, allcontent[i]);
   }
 }
 
 function showAll() {
   containerSpeakers.innerHTML = '';
   allcontent.forEach((element) => {
-    generateSpeakers(htmlSpeakersTemplate,element);
+    generateSpeakers(htmlSpeakersTemplate, element);
   });
 }
 
@@ -96,8 +96,8 @@ window.addEventListener('load', generate);
 window.addEventListener('resize', generate);
 
 function showMoreAction() {
-  for (let i = basicNumber_speakers; i < allcontent.length; i += 1) {
-    generateSpeakers(htmlSpeakersTemplate,allcontent[i]);
+  for (let i = basicNumberSpeakers; i < allcontent.length; i += 1) {
+    generateSpeakers(htmlSpeakersTemplate, allcontent[i]);
   }
 }
 
